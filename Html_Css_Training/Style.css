@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navicon{
+   width: 200px;
+}
+
+.carContainer{
+display: flex;
+flex-direction: column;
+padding: 15px 10px;
+}
+
+.cls_container ul li{
+    list-style: none;
+    margin: 0;
+    /* padding: 10px 20px; */
+    padding: 20px;
+    display: inline-block;
+}
+.cls_container{
+    box-shadow: 0 2px 4px 0 rgba(201, 109, 180, 0.2);
+    /* background-color: rgb(156, 102, 102); */
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+   /* padding-right:640px; */
+    width: 100%;
+    color: white;
+    position: fixed; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: space-between; */
+     z-index: 12;
+     padding: 8px;
+
+ color: black;
+ background-color: #b893c6;
+ font-weight: bolder;
+
+}
+
+.cls_container p{
+    color: rgb(236, 232, 232);
+    cursor: pointer;
+}
+.cls_container p:hover{
+    color: #605c62;
+}
+.cls_container img{
+    /* height: px; */
+    width: 70px;
+    padding-left: 20px;
+}
+.cls_container li:hover{
+    color: rgb(222, 220, 219);
+    cursor: pointer;
+    text-decoration:underline;
+}
+.cls_video-container{
+    /* background-color: #e4e4e4; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    background-color: #ffffff;
+   
+    
+}
+.cls_video-container p:hover{
+    color: rgb(192, 153, 153);
+}
+.cls_video-container{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+video{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+#image04 img{
+    height: 70%;
+    width: 90%;
+    
+}
+
+.cls_containerimage{
+    /* background-color: #f7f7f7; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+   
+
+}
+#image04 {
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+    border-radius: 10px;
+   padding: 10px;
+   background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+    justify-content: center;
+}
+
+#image04 img{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+.cls_icons{
+    display: flex;
+    /* background-color: rgb(255, 255, 255); */
+    justify-content: space-between;
+    /* min-height: 70%; */
+    /* padding: 5px; */
+    /* margin: 10px; */
+    /* background-color: #ffffff; */
+    /* margin-right: 10px; */
+    
+    
+}
+.cls_icons img{
+    width: 30%;
+    height: 30%;
+    
+   /* box-shadow: inset; */
+   
+
+}
+.cls_icons img:hover{
+  background-color: #a9adcc;
+}
+.cls_icons p:hover{
+  color: #a9adcc;
+}
+.card{
+    padding: 100px;
+    justify-content: space-between;
+    /* background-color:rgb(255, 255, 255) ; */
+    /* box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38); */
+  
+    margin: 15px;
+    border-radius: 20px;
+    /* background-color: #edf5e1; */
+}
+
+
+#id_edit{
+    background-color: rgb(255, 255, 255);
+}
+
+.cls_footer{
+    /* background-color: #e1dcdc; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cls_footer img{
+    background-color: rgb(197, 189, 151);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+.cls_containerimage img{
+   /* background-color: rgb(231, 231, 231);  */
+   height: 0px;
+   width: 2px;
+}
+
+@media screen and (max-width:680px){
+    .cls_video-container{
+        flex-direction: column;
+    }
+    .cls_icons{
+        flex-direction: column;
+    }
+    .cls_containerimage{
+         flex-direction: column ;
+    }
+}
